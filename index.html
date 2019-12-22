@@ -8,30 +8,34 @@
 
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script> -->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.js"></script>
 
+<!-- Material Design https://getmdl.io/ -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<!-- Local -->
 <script src="scripts.js"></script>
 
 <body>
     <section id="home" class="homepage">
         <div class="flex">
-            <div class="text">
-                Hello, I'm <span class="highlight">Vincent Scavetta</span>.
-                <br>
-                
+            <div class="title-container">
+                <div class="title">
+                    Hello, I'm <span class="highlight">Vincent Scavetta</span>.
+                </div>
+                <div class="subtitle">
+                    creator of Scavettapps
+                </div>
             </div>
 
         </div>
 
         <ul id="testing" data-friction-x="0.03" data-friction-y="0.05">
             <li class="layer" id="specks" data-depth="0.1"></li>
-            <li class="layer" id="layer-1" data-depth="0.15">
+            <li class="layer" id="layer-1" data-depth="0.1">
                 <div class="img" id="img-1"></div>
             </li>
             <li class="layer" id="layer-2" data-depth="0.25">
@@ -44,9 +48,81 @@
     </section>
 
     <section class="about">
-        asdsadasdsad
-        asd
-        asd
-        as
+        <div class="section-title">
+            About
+        </div>
+        My name is Vincent Scavetta and I am a professional Software developer.
+
+        <div id="columns" class="mdl-grid flex-center columns">
+            <div class="column mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
+                <div class="column-title">
+                    Frontend Development
+                </div>
+                <div>
+
+                </div>
+
+            </div>
+            <div class="column mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
+                <div class="column-title">
+                    Backend Development
+                </div>
+                <div>
+                    Specialized in developing Spring Boot Web Servers that can leverage the growing microservice
+                    architecture.
+                </div>
+            </div>
+            <div class="column mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
+                <div class="column-title">
+                    Education
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="published">
+        <div class="section-title">
+            Published Titles
+        </div>
+        <div class="mdl-grid flex-center">
+            <div class="incrediball-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                </div>
+                <div class="card-title-text">
+                    Incrediball
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Incrediball is the most incredible endless rolling ball experience. Steer the ball left and right on
+                    randomly generated paths to show your friends that you are truly incrediball
+                </div>
+                <div class="mdl-card__actions mdl-card--border download-button">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://apps.apple.com/us/app/incrediball-the-endlessly-rolling-ball/id1119680630">
+                        Download Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="supernova-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                </div>
+                <div class="card-title-text">
+                    SuperNova: Escape!
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Tap to escape the trailing super nova in this endless arcade classic! Carefully avoid the asteroids
+                    floating in space without slowing down... Tap too slowly and the super nova will surly catch up!
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://itunes.apple.com/us/app/supernova-escape/id1212043972?mt=8">
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>

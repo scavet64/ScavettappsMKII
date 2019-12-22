@@ -1,3 +1,16 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Raleway' !important;
+    text-align: center;
+}
+
+.overflow-wrap {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
 .homepage {
     height: 100%;
     overflow: hidden;
@@ -6,10 +19,75 @@
     /* font-family: 'Orbitron', sans-serif; */
 }
 
-.text {
-    font-size: 32pt;
-    line-height: 36pt;
+.title-container {
     z-index: 1;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 36pt;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.section-title {
+    /* padding: 70px 0 70px 0; */
+    font-size: 3rem;
+    line-height: 36pt;
+}
+
+section {
+    padding: 3rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1rem;
+}
+
+.mdl-card {
+    margin: 1rem;
+}
+
+.incrediball-card-wide > .mdl-card__title {
+    height: 175px;
+    -webkit-text-stroke: 1px black;
+    color: #fff;
+    background: url('resources/images/incrediballW.png') bottom / cover;
+}
+
+.incrediball-card-wide.mdl-card {
+    width: 512px;
+}
+
+.incrediball-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.supernova-card-wide > .mdl-card__title {
+    height: 175px;
+    -webkit-text-stroke: 1px black;
+    color: #fff;
+    background: url('resources/images/supernova.jpg') center / cover;
+}
+
+.supernova-card-wide.mdl-card {
+    width: 512px;
+}
+
+.supernova > .mdl-card__menu {
+    color: #fff;
+}
+
+.download-button {
+    background-color: turquoise;
+}
+
+.card-title-text {
+    margin: 1rem;
 }
 
 .highlight {
@@ -26,24 +104,37 @@
     align-items: center;
 }
 
-body {
-    overflow-x: hidden;
-    margin: 0;
-    font-family: 'Raleway';
-    text-align: center;
-}
-
-.overflow-wrap {
-    overflow-x: hidden;
-    overflow: hidden;
-}
-
 .about {
-    padding: 70px 0 70px 0;
     color: #616161;
     line-height: 11pt;
     position: relative;
     overflow: auto;
+}
+
+.columns {
+    /* background-color: #7a007e; */
+    display: flex;
+    padding: 2rem !important;
+    margin: 30px;
+}
+
+.column {
+    background-color: white;
+    
+    border-width: 1px;
+    border-style: solid;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.column-title {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.published {
+    color: #616161;
+    background-color: #F5F5F5 ;
 }
 
 /** floating dust **/
@@ -78,7 +169,8 @@ li {
     opacity: 0;
     height: 4px;
     width: 4px;
-    background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/speck_zpsu9xym9zl.png');
+    background: url('resources/images/speck.png');
+    /* background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/speck_zpsu9xym9zl.png'); */
     background-size: cover;
     position: relative;
     border-radius: 10px;
@@ -98,21 +190,21 @@ li {
 
 #img-1 {
     opacity: 0.25;
-    background: url('https://image.ibb.co/jcTvpv/dust1.jpg');
+    background: url('resources/images/dust1.jpg');
     background-repeat: repeat;
     animation-duration: 600s;
 }
 
 #img-2 {
     opacity: 0.2;
-    background: url('https://image.ibb.co/goU1Uv/dust2.jpg');
+    background: url('resources/images/dust2.jpg');
     background-repeat: repeat;
     animation-duration: 450s;
 }
 
 #img-3 {
     opacity: 0.15;
-    background: url('https://image.ibb.co/cymRwa/dust3.jpg');
+    background: url('resources/images/dust3.jpg');
     background-repeat: repeat;
     animation-duration: 350s;
 }
