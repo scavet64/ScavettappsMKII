@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Raleway' !important;
+  text-align: center;
+  min-height: 100vh;
+  height: auto;
+}
+
+.overflow-wrap {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+
+.title-container {
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 36pt;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.section-title {
+  /* padding: 70px 0 70px 0; */
+  font-size: 3rem;
+  line-height: 36pt;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

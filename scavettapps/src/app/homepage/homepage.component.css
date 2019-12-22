@@ -1,0 +1,46 @@
+section {
+  padding: 3rem;
+  background-color: #F5F5F5;
+}
+
+.section-title {
+  margin: 1rem;
+}
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.about-card {
+  margin: 1rem;
+  width: 512px;
+}
+
+.about-card.mat-card-header {
+  width: 100%;
+}
+
+.about-card-title {
+  width: 100%;
+  margin: 0;
+}
+
+.incrediball-card-header {
+  height: 175px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.supernova-card-header {
+  height: 175px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* mat-card {
+  width: calc(100% - 70px);
+} */
