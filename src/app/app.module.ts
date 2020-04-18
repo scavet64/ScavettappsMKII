@@ -19,12 +19,18 @@ import {
 } from "@angular/material";
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
+import { ResearchComponent } from './research/research.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    ParallaxTitleComponent
+    ParallaxTitleComponent,
+    ProjectsComponent,
+    AboutComponent,
+    ResearchComponent
   ],
   imports: [
     BrowserModule,

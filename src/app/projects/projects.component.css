@@ -1,0 +1,65 @@
+.super-nova-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.incrediball-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.animalcrossing-img {
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  background: rgb(10, 186, 0);
+  background: radial-gradient(circle, rgba(10, 186, 0, 1) 0%, rgba(28, 133, 42, 1) 100%);
+}
+
+.my-card {
+  /* width: calc(50% - 1.5em); */
+  background-color: #353849;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 15px;
+  color: white;
+}
+
+.card-img {
+  /* width: 100%; */
+  height: 175px;
+  border-radius: 15px 15px 0px 0px;
+  max-height: 375px;
+}
+
+.my-card-content {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.my-card-title {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 20px;
+}
+
+.learn-more-button {
+  margin-top: 10px !important;
+  background-color: #2E3141;
+  color: white;
+}
+
+.description {}
+
+.features {
+  margin: 0 0 2em 0;
+}
+
+.published {
+  background-color: #1B242F;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
+}
