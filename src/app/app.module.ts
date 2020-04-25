@@ -22,6 +22,7 @@ import {MatCardModule} from '@angular/material/card';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ResearchComponent } from './research/research.component';
+import { CardComponent } from './common/card/card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ResearchComponent } from './research/research.component';
     ParallaxTitleComponent,
     ProjectsComponent,
     AboutComponent,
-    ResearchComponent
+    ResearchComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,53 @@
+.card-subtitle {
+  color: #3ACCE1;
+  text-align: center;
+}
+
+.learn-more-button {
+  margin-top: 10px !important;
+  background-color: #2E3141;
+  color: white;
+}
+
+
+.list-item {
+  color: white;
+}
+
+.mat-line {
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}
+
+.mat-list-item-content {
+  display: flex !important;
+  /* justify-content: start; */
+  align-items: start !important;
+}
+
+.education-item {
+  display: flex;
+  text-align: left;
+}
+
+.ed-icon {
+  font-size: 2em;
+  margin: 15px;
+  margin-top: 3px;
+}
+
+.ed-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.ed-subtitle {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.class-list {
+  padding-left: 20px;
+  text-align: left;
+}

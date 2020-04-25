@@ -4,256 +4,134 @@
   </div>
   My name is Vincent Scavetta and I am a professional Software Engineer specializing in developing secure software for
   the Department of Defense.
-
   <div class="flex-grid">
 
-    <div class="my-card mat-elevation-z6">
-      <div class="card-top-gradient"></div>
-      <div class="my-card-content">
-        <div class="my-card-title">
-          Frontend and UI/UX Development
+    <app-card>
+      <div title>Frontend and UI/UX Development</div>
+      <div description>
+        <div style="text-align: left;">
+          <p>
+            The user interface is arguably one of the most important aspects of how successful an application or
+            website can be. Many users make their decision if they will continue using a website or application in the
+            first few seconds of their visit. Having a clean, easy to understand and navigate website is critical to
+            ensure new users are welcomed and not totally overwhelmed or confused. Taking the time to create a great
+            user interface is something that I always like to spend time doing.
+          </p>
+          <h4 class="card-subtitle">Languages and Frameworks</h4>
+          <p>
+            On top of basic HTML, CSS, and Javascript, some of the other frontend languages and frameworks
+            that I have experience using include:
+          </p>
+          <ul>
+            <li>Angular 2+</li>
+            <li>Ionic</li>
+            <li>XAML</li>
+            <li>React</li>
+            <li>PHP</li>
+          </ul>
+          <h4 class="card-subtitle">Frontend Tools</h4>
+          <p>
+            Some of the specific frontend and UI/UX tools that I have used include:
+          </p>
+          <ul>
+            <li>Adobe XD</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Visual Studio Code</li>
+          </ul>
         </div>
-        <hr>
-        <div class="description">
-          <div style="text-align: left;">
-            <p>
-              The user interface is arguably one of the most important aspects of how successful an application or
-              website can be. Many users make their decision if they will continue using a website or application in the
-              first few seconds of their visit. Having a clean, easy to understand and navigate website is critical to
-              ensure new users are welcomed and not totally overwhelmed or confused. Taking the time to create a great
-              user interface is something that I always like to spend time doing.
-            </p>
-            <h4 class="card-subtitle">Languages and Frameworks</h4>
-            <p>
-              On top of basic HTML, CSS, and Javascript, some of the other frontend languages and frameworks
-              that I have experience using include:
-            </p>
-            <ul>
-              <li>
-                Angular 2+
-              </li>
-              <li>
-                Ionic
-              </li>
-              <li>
-                XAML
-              </li>
-              <li>
-                React
-              </li>
-              <li>
-                PHP
-              </li>
-            </ul>
-            <h4 class="card-subtitle">Frontend Tools</h4>
-            <p>
-              Some of the specific frontend and UI/UX tools that I have used include:
-            </p>
-            <ul>
-              <li>
-                Adobe XD
-              </li>
-              <li>
-                Adobe Photoshop
-              </li>
-              <li>
-                Adobe Illustrator
-              </li>
-              <li>
-                Visual Studio Code
-              </li>
-            </ul>
+      </div>
+    </app-card>
+
+    <app-card>
+      <div title>Backend Development</div>
+      <div description>
+        <div style="text-align: left;">
+          <p>
+            API Servers are the backbone of just about any application. It is absolutely critical to ensure high
+            availability as well as modularity to keep up with the the growing demand. With the recent industry
+            movement away from the traditional monolith design into a more microservice oriented architecture, I have
+            gained experience working with technologies such as Spring and Docker to stand up microservices with ease
+          </p>
+          <h4 class="card-subtitle">Spring Boot</h4>
+          <p>
+            Much of my professional experience in designing and developing RESTful APIs utilize the Spring Boot Web
+            Framework with extensive unit testing to ensure every unit of the program works as intended. Some of the
+            specific components ive used include:
+          </p>
+          <ul>
+            <li>Spring Boot</li>
+            <li>Spring Data JPA/Hibernate</li>
+            <li>Spring Security</li>
+            <li>JUnit with Mockito and Hamcrest</li>
+          </ul>
+          <h4 class="card-subtitle">Backend Technologies</h4>
+          <p>Some of the other backend languages and technologies that I have used include:</p>
+          <ul>
+            <li>Java 11</li>
+            <li>Docker</li>
+            <li>Heroku and Pipelines</li>
+            <li>MySQL, SQL Server, Oracle</li>
+            <li>SQL Server</li>
+          </ul>
+        </div>
+      </div>
+    </app-card>
+
+    <app-card>
+      <div title>Educational Background</div>
+      <div description>
+        <div class="flex-left">
+          <div>
+            <i mat-list-icon class="fas fa-laptop-code ed-icon"></i>
+          </div>
+          <div>
+            <div>
+              <div class="ed-title card-subtitle">Masters of Science in Computer Science</div>
+              <div class="ed-subtitle">Graduated Spring 2019 with Magna Cum Laude Honors</div>
+            </div>
+            <div class="ed-content">
+              <p>Some of my completed classes during the masters:</p>
+              <ul class="class-list">
+                <li>Artificial Intelligence</li>
+                <li>Advance Object Oriented Design</li>
+                <li>Advance Cyber Security</li>
+                <li>Advance Database Systems: Theory and Programming</li>
+                <li>Design and Implementation of Operating Systems</li>
+                <li>Computer Networks</li>
+                <li>Bioinformatics: Advance Computational Aspects</li>
+                <li>Data Warehousing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-left">
+          <div>
+            <i mat-list-icon class="fas fa-microscope ed-icon"></i>
+          </div>
+          <div>
+            <div>
+              <div class="ed-title card-subtitle">Bachelors of Science in Biological Science</div>
+              <div class="ed-subtitle">Graduated Spring 2016 minoring in Computer Science and Chemistry</div>
+            </div>
+            <div class="ed-content">
+              <p>Some of my relevant completed classes during the bachelors:</p>
+              <ul class="class-list">
+                <li>Object Oriented Programming and Data Abstraction</li>
+                <li>Discrete Math</li>
+                <li>Programming Languages</li>
+                <li>Operating Systems</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Genetics</li>
+                <li>Quantitative Analysis</li>
+                <li>Biochemistry</li>
+                <li>Cell Biology</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="my-card mat-elevation-z6">
-      <div class="card-top-gradient"></div>
-      <div class="my-card-content">
-        <div class="my-card-title">
-          Backend Development
-        </div>
-        <hr>
-        <div class="description">
-          <div style="text-align: left;">
-            <p>
-              API Servers are the backbone of just about any application. It is absolutely critical to ensure high
-              availability as well as modularity to keep up with the the growing demand. With the recent industry
-              movement away from the traditional monolith design into a more microservice oriented architecture, I have
-              gained experience working with technologies such as Spring and Docker to stand up microservices with ease
-            </p>
-            <h4 style="color: blueviolet; text-align: center;">Spring Boot</h4>
-            <p>
-              Much of my professional experience in designing and developing RESTful APIs utilize the Spring Boot Web
-              Framework with extensive unit testing to ensure every unit of the program works as intended. Some of the
-              specific components ive used include:
-            </p>
-            <ul>
-              <li>
-                Spring Boot
-              </li>
-              <li>
-                Spring Data JPA/Hibernate
-              </li>
-              <li>
-                Spring Security
-              </li>
-              <li>
-                JUnit with Mockito and Hamcrest
-              </li>
-            </ul>
-            <h4 style="color: blueviolet; text-align: center;">Backend Technologies</h4>
-            <p>
-              Some of the other backend languages and technologies that I have used include:
-            </p>
-            <ul>
-              <li>
-                Java 11
-              </li>
-              <li>
-                Docker
-              </li>
-              <li>
-                Heroku and Pipelines
-              </li>
-              <li>
-                MySQL, SQL Server, Oracle
-              </li>
-              <li>
-                SQL Server
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="my-card mat-elevation-z6">
-      <div class="card-top-gradient"></div>
-      <div class="my-card-content">
-        <div class="my-card-title">
-          <i class="fas fa-user-graduate"></i> Education
-        </div>
-        <hr>
-        <div class="description" style="text-align: left;">
-
-          <div class="education-item">
-            <div>
-              <i mat-list-icon class="fas fa-laptop-code ed-icon"></i>
-            </div>
-            <div>
-              <div>
-                <div class="ed-title">Masters of Science in Computer Science</div>
-                <div class="ed-subtitle">Graduated Spring 2019 with Magna Cum Laude Honors</div>
-              </div>
-              <div class="ed-content">
-                <p>
-                  Some of my completed classes during the masters:
-                </p>
-                <ul class="class-list">
-                  <li>
-                    Artificial Intelligence
-                  </li>
-                  <li>
-                    Advance Object Oriented Design
-                  </li>
-                  <li>
-                    Advance Cyber Security
-                  </li>
-                  <li>
-                    Advance Database Systems: Theory and Programming
-                  </li>
-                  <li>
-                    Design and Implementation of Operating Systems
-                  </li>
-                  <li>
-                    Computer Networks
-                  </li>
-                  <li>
-                    Bioinformatics: Advance Computational Aspects
-                  </li>
-                  <li>
-                    Data Warehousing
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="education-item">
-            <div>
-              <i mat-list-icon class="fas fa-microscope ed-icon"></i>
-            </div>
-            <div>
-              <div>
-                <div class="ed-title">Bachelors of Science in Biological Science</div>
-                <div class="ed-subtitle">Graduated Spring 2016 minoring in Computer Science and Chemistry</div>
-              </div>
-              <div class="ed-content">
-                <p>
-                  Some of my relevant completed classes during the bachelors:
-                </p>
-                <ul class="class-list">
-                  <li>
-                    Object Oriented Programming and Data Abstraction
-                  </li>
-                  <li>
-                    Discrete Math
-                  </li>
-                  <li>
-                    Programming Languages
-                  </li>
-                  <li>
-                    Operating Systems
-                  </li>
-                  <li>
-                    Data Structures and Algorithms
-                  </li>
-                  <li>
-                    Genetics
-                  </li>
-                  <li>
-                    Quantitative Analysis
-                  </li>
-                  <li>
-                    Biochemistry
-                  </li>
-                  <li>
-                    Cell Biology
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="my-card mat-elevation-z6">
-      <div class="my-card-content">
-        <div class="my-card-title">
-          <i class="fas fa-user-graduate"></i> Education
-        </div>
-        <hr>
-        <div class="description">
-          <div style="text-align: left;">
-            <mat-list>
-              <mat-list-item class="list-item">
-                <i mat-list-icon class="fas fa-laptop-code"></i>
-                <h4 mat-line>Masters of Science in Computer Science</h4>
-                <p mat-line>Graduated Spring 2019 with Magna Cum Laude Honors</p>
-              </mat-list-item>
-              <mat-list-item class="list-item">
-                <i mat-list-icon class="fas fa-microscope"></i>
-                <h4 mat-line>Bachelors of Science in Biological Science</h4>
-                <p mat-line>Graduated Spring 2016 minoring in Computer Science and Chemistry</p>
-              </mat-list-item>
-            </mat-list>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    </app-card>
   </div>
 </section>
