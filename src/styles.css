@@ -61,6 +61,15 @@ body {
   justify-content: center;
 }
 
+.flex-grid-vert {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 0;
+  align-items: stretch;
+  justify-content: center;
+}
+
 section {
   padding-top: 3rem;
   padding-bottom: 3rem;
