@@ -4,10 +4,6 @@
   overflow: hidden;
   /* font-family: 'Orbitron', sans-serif; */
   /* border-width: 10px; */
-  border-width: 0px;
-  border-bottom-width: 30px;
-  border-bottom: blueviolet;
-  border-style: solid;
 }
 
 .flex {

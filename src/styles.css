@@ -18,7 +18,6 @@ body {
   overflow: hidden;
 }
 
-
 .title-container {
   z-index: 1;
 }
@@ -34,8 +33,9 @@ body {
 
 .section-title {
   /* padding: 70px 0 70px 0; */
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 36pt;
+  font-weight: 800;
 }
 
 .about-card {
@@ -62,7 +62,10 @@ body {
 }
 
 section {
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #2E3141;
 }
 
@@ -95,4 +98,21 @@ body {
 .button-link {
   color: white;
   text-decoration: none;
+}
+
+.section-info-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-subtitle {
+  margin-bottom: 25px;
+}
+
+.bottom-border {
+  border-width: 0px;
+  border-bottom-width: 30px;
+  border-bottom: blueviolet;
+  border-style: solid;
 }
