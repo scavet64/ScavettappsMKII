@@ -39,3 +39,11 @@
   font-size: 1.1em;
   padding: 20px;
 }
+
+.card-img {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 15px 15px 0px 0px;
+  max-height: 375px;
+  height: auto;
+}
