@@ -128,5 +128,10 @@
       }
     }
   },
-  "defaultProject": "scavettapps"
+  "defaultProject": "scavettapps",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
