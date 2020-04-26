@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.button {
+  margin: 10px;
+  background-color: $accent;
+}

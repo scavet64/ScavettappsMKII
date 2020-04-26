@@ -15,7 +15,9 @@ import {
   MatSelectModule,
   MatSidenavModule,
   MatTableModule,
-  MatGridListModule
+  MatGridListModule,
+  MatDialog,
+  MatDialogModule
 } from "@angular/material";
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
@@ -25,6 +27,7 @@ import { ResearchComponent } from './research/research.component';
 import { CardComponent } from './common/card/card.component';
 import { HjohnsoniiComponent } from './hjohnsonii/hjohnsonii.component';
 import { CardgameAIComponent } from './cardgame-ai/cardgame-ai.component';
+import { MenuModalComponent } from './menu-modal/menu-modal.component';
 
 @NgModule({
   declarations: [
@@ -36,13 +39,15 @@ import { CardgameAIComponent } from './cardgame-ai/cardgame-ai.component';
     ResearchComponent,
     CardComponent,
     HjohnsoniiComponent,
-    CardgameAIComponent
+    CardgameAIComponent,
+    MenuModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatDialogModule,
     MatFormFieldModule,
     MatIconModule,
     MatListModule,
@@ -55,6 +60,11 @@ import { CardgameAIComponent } from './cardgame-ai/cardgame-ai.component';
     FlexLayoutModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ],
+  entryComponents: [
+    MenuModalComponent
+  ]
 })
 export class AppModule { }

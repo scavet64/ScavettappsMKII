@@ -135,3 +135,7 @@ body {
 .angled-alt {
   @include angle(before, true);
 }
+
+.mat-dialog-container {
+  background-color: $primary !important;
+}
