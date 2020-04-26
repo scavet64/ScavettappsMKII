@@ -16,9 +16,8 @@ import {
   MatSidenavModule,
   MatTableModule,
   MatGridListModule,
-  MatDialog,
   MatDialogModule
-} from "@angular/material";
+} from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
 import { ProjectsComponent } from './projects/projects.component';

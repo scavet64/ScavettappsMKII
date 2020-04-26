@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, AfterContentInit, AfterViewInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-homepage',
@@ -7,13 +8,16 @@ import { Component, OnInit, ViewChild, AfterContentInit, AfterViewInit } from '@
 })
 export class HomepageComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  constructor(
+    private titleService: Title
+  ) { }
 
   ngOnInit() {
   }
 
   ngAfterViewInit() {
     window.scrollTo(0, 0);
+    this.titleService.setTitle('Scavettapps: Homepage');
   }
 
 }
