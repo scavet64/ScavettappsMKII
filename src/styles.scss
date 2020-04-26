@@ -4,6 +4,7 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 @import 'variables.scss';
+@import 'app/angled.scss';
 
 body {
   overflow-x: hidden;
@@ -125,4 +126,12 @@ body {
 .flex-left {
   display: flex;
   text-align: left;
+}
+
+.angled {
+  @include angle(before);
+}
+
+.angled-alt {
+  @include angle(before, true);
 }
