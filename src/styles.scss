@@ -3,6 +3,8 @@
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+@import 'variables.scss';
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -75,35 +77,27 @@ section {
   padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #2E3141;
+  background-color: $primary;
+}
+
+.section-alt {
+  background-color: $secondary;
 }
 
 .section-title {
   margin: 1rem;
 }
 
-/* .inner {
-  padding: 3em 0 1em 0;
-  margin: 0 auto;
-  width: 55em;
-} */
-
 .flex-center {
   display: flex;
   justify-content: center;
 }
 
-/* html,
-body {
-  height: 100%;
-  background-color: #2E3141;
-} */
-
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   height: 100%;
-  background-color: #2E3141;
+  background-color: $secondary;
 }
 
 .button-link {
@@ -132,9 +126,3 @@ body {
   display: flex;
   text-align: left;
 }
-
-/* @media only screen and (max-width: 800px) {
-  body {
-    background-color: lightblue;
-  }
-} */

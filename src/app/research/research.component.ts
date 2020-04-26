@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-research',
   templateUrl: './research.component.html',
-  styleUrls: ['./research.component.css']
+  styleUrls: ['./research.component.scss']
 })
 export class ResearchComponent implements OnInit {
 

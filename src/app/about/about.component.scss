@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .card-subtitle {
   color: #3ACCE1;
   text-align: center;
@@ -5,10 +7,9 @@
 
 .learn-more-button {
   margin-top: 10px !important;
-  background-color: #2E3141;
   color: white;
+  background-color: $accent;
 }
-
 
 .list-item {
   color: white;

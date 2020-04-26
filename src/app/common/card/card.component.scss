@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .card-top-gradient {
   height: 10px;
   border-radius: 10px 10px 0px 0px;
@@ -15,7 +17,7 @@
 }
 
 .my-card {
-  background-color: #454F63;
+  background-color: $card;
   border-radius: 15px;
   max-width: 500px;
   margin: 15px;

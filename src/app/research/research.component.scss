@@ -1,6 +1,7 @@
+@import '../../variables.scss';
+
 .my-card {
   /* width: calc(50% - 1.5em); */
-  background-color: #353849;
   border-radius: 15px;
   max-width: 500px;
   margin: 15px;
@@ -25,20 +26,8 @@
   padding: 20px;
 }
 
-.description {
-
-}
-
-.features {
-  margin: 0 0 2em 0;
-}
-
 .learn-more-button {
   margin-top: 10px !important;
-  background-color: #2E3141;
   color: white;
-}
-
-.published {
-  background-color: #1B242F;
+  background-color: $accent;
 }
