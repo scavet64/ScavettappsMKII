@@ -1,0 +1,96 @@
+.background-img {
+  background-image: linear-gradient(to top,
+      rgba(46, 49, 65, 0.8),
+      rgba(46, 49, 65, 0.8)),
+    url(../../assets/imgs/hjohnsonii/hjohnsoniiSmall.jpg);
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.inner {
+  margin: auto;
+  max-width: 1200px;
+  text-align: left;
+}
+
+.title-section {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  background-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.body-text {
+  text-align: left;
+  line-height: 2rem;
+}
+
+.section-title {
+  margin: 0px;
+  font-size: 1.75rem;
+}
+
+.content {
+  background-color: #2E3141;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+.inner-section {
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+/** figure stuff  **/
+
+.figure-container {
+  display: flex;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  //background-color: rgb(54, 55, 63);
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.alt {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.figure-img {
+  max-height: 400px;
+  max-width: 550px;
+  border-radius: 20px;
+}
+
+.figure-details {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.figure-title {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .figure-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .figure-description {
+    text-align: left;
+  }
+}

@@ -23,6 +23,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ResearchComponent } from './research/research.component';
 import { CardComponent } from './common/card/card.component';
+import { HjohnsoniiComponent } from './hjohnsonii/hjohnsonii.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CardComponent } from './common/card/card.component';
     ProjectsComponent,
     AboutComponent,
     ResearchComponent,
-    CardComponent
+    CardComponent,
+    HjohnsoniiComponent
   ],
   imports: [
     BrowserModule,
