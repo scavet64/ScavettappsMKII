@@ -24,6 +24,7 @@ import { AboutComponent } from './about/about.component';
 import { ResearchComponent } from './research/research.component';
 import { CardComponent } from './common/card/card.component';
 import { HjohnsoniiComponent } from './hjohnsonii/hjohnsonii.component';
+import { CardgameAIComponent } from './cardgame-ai/cardgame-ai.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HjohnsoniiComponent } from './hjohnsonii/hjohnsonii.component';
     AboutComponent,
     ResearchComponent,
     CardComponent,
-    HjohnsoniiComponent
+    HjohnsoniiComponent,
+    CardgameAIComponent
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
   background-image: linear-gradient(to top,
       rgba(46, 49, 65, 0.8),
       rgba(46, 49, 65, 0.8)),
-    url(../../assets/imgs/hjohnsonii/hjohnsoniiSmall.jpg);
+    url(../../assets/imgs/cardgameAI/circuit-brain-study.png);
   position: fixed;
   top: 0;
   height: 100vh;
@@ -55,6 +55,16 @@ body {
   padding-top: 0;
 }
 
+.inner-img {
+  max-width: 75%;
+  border-radius: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 /** figure stuff  **/
 
 .figure-container {
@@ -88,12 +98,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  .figure-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .figure-description {
-    text-align: left;
+  .inner-img {
+    max-width: 100%;
   }
 }

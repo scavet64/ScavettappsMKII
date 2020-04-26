@@ -1,0 +1,90 @@
+<div class="background-img">
+</div>
+<div class="inner">
+  <section class="title-section">
+    <div class="title">
+      Applying AI to Online Trading Card Games
+    </div>
+    <hr>
+    <div class="subtitle">
+      Artificial Intelligence for a computerized player using a minimax inspired algorithm in a heavily probablistic
+      card game.
+    </div>
+  </section>
+  <section class="body-text content">
+    <section class="inner-section">
+      <div class="section-title">
+        Abstract
+      </div>
+      <hr>
+      <div>
+        Online collectible card games or trading card games are complex to model due to the uniqueness of each card and
+        the specific modes of action such as attacking, enhancement and defensive cards. To develop a challenging
+        multi-user game with a computerized player, AI algorithms were designed which simulate a human player’s actions
+        through programming, mathematical and often heuristic techniques. Moreover, since each trading card game has its
+        own unique game play, developing a reusable gaming framework enabled by object-oriented design patterns has more
+        utility than developing a specific instance of a game.
+      </div>
+    </section>
+
+    <section class="inner-section">
+      <div class="section-title">
+        Artificial Intelligence Algorithm
+      </div>
+      <hr>
+      <div>
+        <p>
+          The design is based on the minimax algorithm which operates on the premise that the AI’s opponent is trying to
+          minimize whatever value for game state that the AI is trying to maximize. Minimax is extended by incorporating
+          chance-based child nodes on every non-deterministic move, and allowing a node depth greater than one for each
+          turn to allow for multi-move.
+        </p>
+
+        <div class="center">
+          <img class="inner-img" src="../../assets/imgs/cardgameAI/aiintro.jpg">
+        </div>
+
+
+        <h3>Game Mechanics</h3>
+        <p>
+          Players start with three cards randomly chosen from their deck of cards. On each turn, a player can place any
+          number of cards and/or make any number of attacks with any card on the field within the constraints laid out
+          for that turn.
+        </p>
+
+        <h3>Constraints</h3>
+        <p>
+          Players have a limited amount of resources(mana) to carry out attacks or place cards. The field has a limited
+          amount of slots for cards to be placed. Your hand has a limited amount of cards it can hold. You can only
+          attack the other player's face if and only if there are no other cards on the field.
+        </p>
+
+        <h3>Probabilities</h3>
+        <p>
+          Each card has individual probabilities of hitting a target. As a result of cards defending themselves when
+          attacked by another card, there are 4 possible outcomes for each attack:
+        </p>
+        <ul>
+          <li>Hit - Hit</li>
+          <li>Hit - Miss</li>
+          <li>Miss - Hit</li>
+          <li>Miss - Miss</li>
+        </ul>
+
+        <div class="center">
+          <img class="inner-img" src="../../assets/imgs/cardgameAI/Flow.jpg">
+        </div>
+
+        <h3>Conclusions</h3>
+        <p>
+          While the AI only goes one layer deep in our application due to the sheer number of possibilities, it provides
+          a very good challenge. The card game we created values more direct play rather than long term holding out for
+          specific cards which adds to the strength of this AI. With more optimization and implementation of more
+          sophisticated methods, it could be possible to reduce the total calculation time enough that we could simulate
+          up to two turns worth of probabilities in a realistic amount of time.
+        </p>
+      </div>
+    </section>
+
+  </section>
+</div>
