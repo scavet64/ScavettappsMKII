@@ -77,6 +77,10 @@
   background-color: $card;
 }
 
+.inner {
+  max-width: 1200px;
+}
+
 @media only screen and (max-width: 800px) {
   .my-h-card {
     flex-direction: column;
