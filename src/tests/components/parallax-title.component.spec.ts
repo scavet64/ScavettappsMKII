@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ParallaxTitleComponent } from '../../app/parallax-title/parallax-title.component';
+import { ParallaxTitleComponent } from '../../app/homepage/parallax-title/parallax-title.component';
 
 describe('ParallaxTitleComponent', () => {
   let component: ParallaxTitleComponent;
