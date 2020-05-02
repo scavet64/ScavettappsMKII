@@ -27,6 +27,7 @@ import { CardComponent } from './common/card/card.component';
 import { HjohnsoniiComponent } from './hjohnsonii/hjohnsonii.component';
 import { CardgameAIComponent } from './cardgame-ai/cardgame-ai.component';
 import { MenuModalComponent } from './menu-modal/menu-modal.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MenuModalComponent } from './menu-modal/menu-modal.component';
     CardComponent,
     HjohnsoniiComponent,
     CardgameAIComponent,
-    MenuModalComponent
+    MenuModalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
