@@ -46,6 +46,7 @@
   background-color: $primary;
   border-radius: 20px;
   margin-bottom: 100px;
+  padding-bottom: 3rem;
 }
 
 body {
@@ -57,15 +58,15 @@ body {
   padding-top: 0;
 }
 
+.inner-section:last-child {
+  padding-bottom: 0px;
+}
+
 .inner-img {
   max-width: 75%;
   border-radius: 20px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-}
 
 @media only screen and (max-width: 800px) {
   .inner-img {

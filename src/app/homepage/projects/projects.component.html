@@ -77,11 +77,167 @@
         </div>
         <div>
           <button class="learn-more-button" mat-flat-button>
-            <a class="button-link" href="https://apps.apple.com/us/app/incrediball-the-endlessly-rolling-ball/id1119680630">Download</a>
+            <a class="button-link"
+              href="https://apps.apple.com/us/app/incrediball-the-endlessly-rolling-ball/id1119680630">Download</a>
           </button>
           <button class="learn-more-button" mat-flat-button>
             <a class="button-link" href="https://github.com/scavet64/Incrediball">Source</a>
           </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other projects -->
+    <div>
+      <div class="section-info-container">
+        <h1>
+          Other Projects
+        </h1>
+        <hr>
+        <div class="section-subtitle">
+          A collection of other projects that I have worked on in the past either as a school project or as a fun side
+          project.
+        </div>
+      </div>
+
+      <div class="flex-grid-vert">
+        <div class="other-project-card mat-elevation-z6">
+
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-crown"></i>
+              </div>
+              <div>
+                Checkers with Minimax AI
+              </div>
+            </div>
+            <div class="description">
+              This project is a complete implementation of a playable game of checkers against a computer player. The
+              Artificial intelligence uses the Minimax algorithm to determine what moves to make. The heuristics to
+              determine what a good move is and is not was determined by a pseudo genetic algorithm that placed two AI
+              players against one another, one with the previously winning genetic makeup and the opponent with a
+              slightly modified version. If the modified version won more than the previous winner, it becomes the new
+              "best" and the cycle repeats. The project was built using C# and XAML as a WPF Application
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/CheckersMinimax"><i class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="other-project-card mat-elevation-z6">
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <div>
+                My Custom OS
+              </div>
+            </div>
+            <div class="description">
+              This project is a custom implementation of an operating system using Freestanding C. This project was
+              completed as part of my Fall 2018 Graduate Operating Systems class. The OS is able to read in commands
+              with varying arguments and as a rudimentary login system. Most of the commands that I built into the OS
+              are Arithmetic related however, there are some user related commands as well such as creating a new user
+              and viewing a list of all users.
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/GradOS-MyOS"><i class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="other-project-card mat-elevation-z6">
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-database"></i>
+              </div>
+              <div>
+                Kinabalu
+              </div>
+            </div>
+            <div class="description">
+              This project was completed as part of my Graduate Databases class and focuses heavily on the relational
+              database. The main purpose of this project was to create some sort of web application that could interface
+              with our database. Our database had to also interface with several other databases using database views to
+              produce queries that included all the data from all three data sources. The web application was built in
+              ASP.Net and utilized the Entity Framework ORM
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/GradDatabaseProject"><i
+                  class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="other-project-card mat-elevation-z6">
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-flask"></i>
+              </div>
+              <div>
+                Flask Web Application in Docker
+              </div>
+            </div>
+            <div class="description">
+              This mini project showcases the use of the Flask Python package to fetch and present data from a database.
+              Docker Compose is used to orchestrate the creation and linkage between the mysql database and the flask
+              application.
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/GradDBHomework2"><i class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="other-project-card mat-elevation-z6">
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-code-branch"></i>
+              </div>
+              <div>
+                A-Star Implementation
+              </div>
+            </div>
+            <div class="description">
+              This mini project is an implementation of the A Star algorithm. This simple project showcases the
+              algorithm in Java
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/AStar"><i class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="other-project-card mat-elevation-z6">
+          <div class="my-card-content">
+            <div class="my-card-title other-title">
+              <div class="other-project-img">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div>
+                The Crypts (Vigenere Cipher)
+              </div>
+            </div>
+            <div class="description">
+              This mini project's purpose was to serve as a collection of different encryption methods as well as
+              cryptanalysis, however only the Vigenere Cipher was implemented.
+            </div>
+            <button class="learn-more-button" mat-flat-button>
+              <a class="button-link" href="https://github.com/scavet64/TheCrypts"><i class="fab fa-github"></i>
+                Source</a>
+            </button>
+          </div>
         </div>
       </div>
     </div>

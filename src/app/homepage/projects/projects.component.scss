@@ -81,6 +81,33 @@
   max-width: 1200px;
 }
 
+.other-project-list {
+  display: flex;
+}
+
+.other-project-card {
+  display: flex;
+  border-radius: 15px;
+  max-width: 450px;
+  margin: 15px;
+  color: white;
+  background-color: $card;
+}
+
+.other-project-img {
+  font-size: 3rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 800px) {
   .my-h-card {
     flex-direction: column;
