@@ -1,0 +1,15 @@
+<div class="my-card mat-elevation-z6">
+  <div *ngIf="imgSrc">
+    <img class="card-img" [src]="imgSrc">
+  </div>
+  <div *ngIf="!imgSrc" class="card-top-gradient"></div>
+  <div class="my-card-content">
+    <div class="my-card-title">
+      <ng-content select="[title]"></ng-content>
+    </div>
+    <hr>
+    <div class="description">
+      <ng-content select="[description]"></ng-content>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+@import '../../../variables.scss';
+
+.card-subtitle {
+  color: #3ACCE1;
+  text-align: center;
+}
+
+.learn-more-button {
+  margin-top: 10px !important;
+  color: white;
+  background-color: $accent;
+}
+
+.list-item {
+  color: white;
+}
+
+.mat-line {
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}
+
+.mat-list-item-content {
+  display: flex !important;
+  /* justify-content: start; */
+  align-items: flex-start !important;
+}
+
+.education-item {
+  display: flex;
+  text-align: left;
+}
+
+.ed-icon {
+  font-size: 2em;
+  margin: 15px;
+  margin-top: 3px;
+}
+
+.ed-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.ed-subtitle {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.class-list {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.contact-item-list {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.contact-item {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+
+.contact-icon {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  height: 19px;
+  width: 19px;
+  border-color: gray;
+}
+
+.contact-details {
+  margin:10px;
+  color:white;
+}

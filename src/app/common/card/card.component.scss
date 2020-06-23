@@ -1,0 +1,51 @@
+@import '../../../variables.scss';
+
+.card-top-gradient {
+  height: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-image:
+    linear-gradient(
+      to right,
+      #665EFF 25%,
+      #5773FF 25%,
+      #5773FF 50%,
+      #3497FD 50%,
+      #3497FD 75%,
+      #3ACCE1 75%,
+      #3ACCE1 100%
+    );
+}
+
+.my-card {
+  background-color: $card;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 15px;
+  color: white;
+}
+
+.card-img {
+  /* width: 100%; */
+  height: 175px;
+  border-radius: 15px 15px 0px 0px;
+  max-height: 375px;
+}
+
+.my-card-content {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.my-card-title {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 20px;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 15px 15px 0px 0px;
+  max-height: 375px;
+  height: auto;
+}

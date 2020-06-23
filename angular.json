@@ -25,7 +25,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": [
               "node_modules/parallax-js/dist/parallax.min.js"
@@ -93,7 +93,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": [
               "node_modules/parallax-js/dist/parallax.min.js"
@@ -128,5 +128,10 @@
       }
     }
   },
-  "defaultProject": "scavettapps"
+  "defaultProject": "scavettapps",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

@@ -3,6 +3,7 @@
   background: linear-gradient(135deg, #2B7594 0%, #7a007e 100%);
   overflow: hidden;
   /* font-family: 'Orbitron', sans-serif; */
+  /* border-width: 10px; */
 }
 
 .flex {
@@ -51,8 +52,7 @@ li {
   opacity: 0;
   height: 4px;
   width: 4px;
-  background: url('../../assets/speck.png');
-  /* background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/speck_zpsu9xym9zl.png'); */
+  background: url('../../../assets/speck.png');
   background-size: cover;
   position: relative;
   border-radius: 10px;
@@ -72,21 +72,21 @@ li {
 
 #img-1 {
   opacity: 0.25;
-  background: url('../../assets/dust1.jpg');
+  background: url('../../../assets/dust1.jpg');
   background-repeat: repeat;
   animation-duration: 600s;
 }
 
 #img-2 {
   opacity: 0.2;
-  background: url('../../assets/dust2.jpg');
+  background: url('../../../assets/dust2.jpg');
   background-repeat: repeat;
   animation-duration: 450s;
 }
 
 #img-3 {
   opacity: 0.15;
-  background: url('../../assets/dust3.jpg');
+  background: url('../../../assets/dust3.jpg');
   background-repeat: repeat;
   animation-duration: 350s;
 }

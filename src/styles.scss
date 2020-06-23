@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import 'variables.scss';
+@import 'app/angled.scss';
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Raleway' !important;
+  text-align: center;
+  min-height: 100vh;
+  height: auto;
+  color: white;
+}
+
+.overflow-wrap {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.title-container {
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 36pt;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  line-height: 36pt;
+  font-weight: 800;
+}
+
+.about-card {
+  margin: 1rem;
+  width: 512px;
+}
+
+.about-card.mat-card-header {
+  width: 100%;
+}
+
+.about-card-title {
+  width: 100%;
+  margin: 0;
+  color: blueviolet;
+}
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.flex-grid-vert {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 0;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 1600px;
+  margin: auto;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: $primary;
+}
+
+.section-alt {
+  background-color: $secondary;
+}
+
+.section-title {
+  margin: 1rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100%;
+  background-color: $secondary;
+}
+
+.button-link {
+  color: white;
+  text-decoration: none;
+}
+
+.section-info-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-subtitle {
+  margin-bottom: 25px;
+}
+
+.bottom-border {
+  border-width: 0px;
+  border-bottom-width: 30px;
+  border-bottom: blueviolet;
+  border-style: solid;
+}
+
+.flex-left {
+  display: flex;
+  text-align: left;
+}
+
+.angled {
+  @include angle(before);
+}
+
+.angled-alt {
+  @include angle(before, true);
+}
+
+.mat-dialog-container {
+  background-color: $primary !important;
+}

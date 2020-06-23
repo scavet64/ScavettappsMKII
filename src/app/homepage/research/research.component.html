@@ -1,0 +1,45 @@
+<section class="published inner bottom-border">
+  <div class="section-info-container">
+    <div class="section-title">
+      Research Projects
+    </div>
+    <hr>
+    <div class="section-subtitle">
+      Here are a few of the research projects that I have completed during my time at Rowan University. These projects
+      were not part of any course curiculum and were sponsored by faculty at the university.
+    </div>
+  </div>
+
+  <div class="flex-grid">
+
+    <app-card [imgSrc]="'../../assets/imgs/HjohnsoniiSTEMposter8+CR2-FINAL.jpg'">
+      <div title><i>Halophila johnsonii</i> Individual Based Model (IBM)</div>
+      <div description>
+        <div>
+          This was the poster that I created to present my research on the seagrass, Halophila johnsonii under the super
+          vision of Dr. Richmond. This was presented at the 2016 Rowan University STEM Symposium.
+        </div>
+        <button class="learn-more-button" mat-flat-button (click)="navigate('hjohnsonii')">Learn More</button>
+        <button class="learn-more-button" mat-flat-button>
+          <a class="button-link" href="https://github.com/scavet64/H.johnsonii_IBM">
+            <i class="fab fa-github"></i> Source</a>
+        </button>
+      </div>
+    </app-card>
+
+    <app-card [imgSrc]="'../../assets/imgs/artificialIntel.jpg'">
+      <div title>Applying AI to online trading card games</div>
+      <div description>
+        <div>
+          This was the poster that my group and I created to present our research and project on the implementation of
+          an AI into a trading card game. This was presented at the 2016 Rowan University STEM Symposium.
+        </div>
+        <button class="learn-more-button" mat-flat-button (click)="navigate('ai')">Learn More</button>
+        <button class="learn-more-button" mat-flat-button>
+          <a class="button-link" href="https://github.com/scavet64/2016-Election-Simulator-The-Card-Game">
+            <i class="fab fa-github"></i> Source</a>
+        </button>
+      </div>
+    </app-card>
+  </div>
+</section>

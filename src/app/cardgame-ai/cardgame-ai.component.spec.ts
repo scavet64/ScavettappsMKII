@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ParallaxTitleComponent } from '../../app/homepage/parallax-title/parallax-title.component';
+import { CardgameAIComponent } from './cardgame-ai.component';
 
-describe('ParallaxTitleComponent', () => {
-  let component: ParallaxTitleComponent;
-  let fixture: ComponentFixture<ParallaxTitleComponent>;
+describe('CardgameAIComponent', () => {
+  let component: CardgameAIComponent;
+  let fixture: ComponentFixture<CardgameAIComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ParallaxTitleComponent ]
+      declarations: [ CardgameAIComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ParallaxTitleComponent);
+    fixture = TestBed.createComponent(CardgameAIComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
