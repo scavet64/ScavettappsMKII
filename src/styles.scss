@@ -49,12 +49,6 @@ body {
   width: 100%;
 }
 
-.about-card-title {
-  width: 100%;
-  margin: 0;
-  color: blueviolet;
-}
-
 .flex-grid {
   display: flex;
   flex-flow: row wrap;
@@ -125,7 +119,7 @@ body {
 .bottom-border {
   border-width: 0px;
   border-bottom-width: 30px;
-  border-bottom: blueviolet;
+  border-bottom: $accent;
   border-style: solid;
 }
 
