@@ -22,6 +22,9 @@
   max-width: 500px;
   margin: 15px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-img {
@@ -34,6 +37,10 @@
 .my-card-content {
   padding: 20px;
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .my-card-title {
