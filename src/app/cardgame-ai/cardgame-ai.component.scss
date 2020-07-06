@@ -10,9 +10,9 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
+  background-size: cover;
   background-position: center, center;
+  background-repeat: no-repeat;
 }
 
 .inner {
@@ -62,14 +62,18 @@ body {
   padding-bottom: 0px;
 }
 
-.inner-img {
-  max-width: 75%;
+.img-wrapper {
+  max-width: 1000px;
+}
+
+.figure-img {
+  max-width: 100%;
   border-radius: 20px;
 }
 
 
 @media only screen and (max-width: 800px) {
   .inner-img {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
