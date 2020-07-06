@@ -1,5 +1,8 @@
+@import '../../variables.scss';
+
 .copyright {
-  margin: 20px;
+  padding: 20px;
+  background-color: $secondary;
 }
 
 .inner {
