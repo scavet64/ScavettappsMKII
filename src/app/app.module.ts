@@ -6,20 +6,17 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ParallaxTitleComponent } from './homepage/parallax-title/parallax-title.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule,
-  MatFormFieldModule,
-  MatIconModule,
-  MatInputModule,
-  MatListModule,
-  MatSelectModule,
-  MatSidenavModule,
-  MatTableModule,
-  MatGridListModule,
-  MatDialogModule
-} from '@angular/material';
-import {FlexLayoutModule} from '@angular/flex-layout';
-import {MatCardModule} from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
 import { ProjectsComponent } from './homepage/projects/projects.component';
 import { AboutComponent } from './homepage/about/about.component';
 import { ResearchComponent } from './homepage/research/research.component';
@@ -57,8 +54,7 @@ import { FooterComponent } from './footer/footer.component';
     MatSidenavModule,
     MatGridListModule,
     MatCardModule,
-    MatTableModule,
-    FlexLayoutModule
+    MatTableModule
   ],
   providers: [],
   bootstrap: [

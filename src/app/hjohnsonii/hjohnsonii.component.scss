@@ -10,9 +10,9 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
+  background-size: cover;
   background-position: center, center;
+  background-repeat: no-repeat;
 }
 
 .inner {
@@ -78,9 +78,12 @@ body {
   text-align: right;
 }
 
+.img-wrapper {
+  max-width: 1000px;
+}
+
 .figure-img {
-  max-height: 400px;
-  max-width: 550px;
+  max-width: 100%;
   border-radius: 20px;
 }
 
@@ -97,6 +100,13 @@ body {
   .figure-container {
     flex-direction: column;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .figure-details {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .figure-description {

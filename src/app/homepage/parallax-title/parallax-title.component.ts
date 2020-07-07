@@ -10,7 +10,7 @@ declare var Parallax: any;
 })
 export class ParallaxTitleComponent implements AfterContentInit {
 
-  @ViewChild('testing', {static: false}) parallax;
+  @ViewChild('testing') parallax;
 
   constructor() { }
 

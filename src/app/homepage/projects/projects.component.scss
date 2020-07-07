@@ -69,7 +69,6 @@
   margin: 10px;
   margin-bottom: 0px;
   color: white;
-  width: 100px;
   background-color: $accent;
 }
 
@@ -104,9 +103,13 @@
   background-color: $card;
 }
 
+.stretch-down {
+  display: flex;
+}
+
 .other-project-img {
   font-size: 3rem;
-  padding: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +117,11 @@
 
 .other-title {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
   align-items: center;
   justify-content: center;
 }

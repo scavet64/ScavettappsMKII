@@ -1,7 +1,7 @@
 @import '../../../variables.scss';
 
 .card-subtitle {
-  color: #3ACCE1;
+  color: $accent5;
   text-align: center;
 }
 
@@ -79,4 +79,12 @@
 .contact-details {
   margin:10px;
   color:white;
+}
+
+.stretch-down {
+  display: flex;
+}
+
+.my-card {
+  justify-content: end !important;
 }

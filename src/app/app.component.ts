@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { MenuModalComponent } from './menu-modal/menu-modal.component';
 import { Router } from '@angular/router';
 

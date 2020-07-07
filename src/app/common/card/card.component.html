@@ -4,12 +4,17 @@
   </div>
   <div *ngIf="!imgSrc" class="card-top-gradient"></div>
   <div class="my-card-content">
-    <div class="my-card-title">
-      <ng-content select="[title]"></ng-content>
+    <div>
+      <div class="my-card-title">
+        <ng-content select="[title]"></ng-content>
+      </div>
+      <hr>
+      <div class="description">
+        <ng-content select="[description]"></ng-content>
+      </div>
     </div>
-    <hr>
-    <div class="description">
-      <ng-content select="[description]"></ng-content>
+    <div class="action-buttons">
+      <ng-content select="[actionbuttons]"></ng-content>
     </div>
   </div>
 </div>

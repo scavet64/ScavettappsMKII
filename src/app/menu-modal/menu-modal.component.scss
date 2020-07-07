@@ -3,7 +3,7 @@
 .modal {
   background-color: $primary;
   color:white;
-  width: 300px;
+  width: 250px;
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -17,4 +17,8 @@
   font-size: 1.0rem;
   font-weight: 200;
   margin: 2.5px;
+}
+
+.icon {
+  margin-right: 10px;
 }
